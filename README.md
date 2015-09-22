@@ -39,6 +39,10 @@ module.exports = config;
     --zip-file fileb://tweet.zip 
 ```
 
+- Adjust Timeout
+
+Please adjust Timeout.
+
 - Update function
 
 ```sh
