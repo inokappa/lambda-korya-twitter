@@ -5,7 +5,7 @@ module.exports = {
         "Message":{
           "default": "test",
           "title": "Lambda Message Test",
-          "message": "Lambda tweet test",
+          "message": "だめだこりゃ、らむだこりゃ",
           "url": "http://xxx.example.com/"
         }
       }
