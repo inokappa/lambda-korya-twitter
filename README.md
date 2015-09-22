@@ -3,12 +3,12 @@
 ### Required
 
 - nodejs
-- [mtwitter](https://www.npmjs.com/package/)
-- [twitter](http:///) Account
+- [mtwitter](https://www.npmjs.com/package/mtwitter)
+- twitter Account
 
 ### How to use
 
-- [mtwitter](https://www.npmjs.com/package/) Install
+- [mtwitter](https://www.npmjs.com/package/mtwitter) Install
 
 ```sh
 % npm install mtwitter
