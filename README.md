@@ -14,6 +14,12 @@
 % npm install mtwitter
 ```
 
+- [moment](http://momentjs.com/) Install
+
+```sh
+% npm install moment 
+```
+
 - Chnage config.js
 
 ```javascript

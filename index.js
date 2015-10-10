@@ -2,11 +2,13 @@ console.log('Loading event');
 //
 var config = require('./config');
 var twitter = require('mtwitter');
+var moment = require("moment");
 
 exports.handler = function(event, context) {
   // Generate post data
-  var message = event.Records[0].Sns.Message;
-  var tweet   = {status: 'PM2.5 の状況です: ' + message };
+  // var message = event.Records[0].Sns.Message;
+  var message = moment().utc().add(9, 'h').format("MM 月 DD日 HH 時 mm 分です。");
+  var tweet   = {status: '5 分毎につぶやきます: ' + message };
 
   var tw = new twitter({
     consumer_key        : config.consumer_key,
